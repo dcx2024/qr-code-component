@@ -21,7 +21,7 @@ h4{
     margin-left: 10px;
 }
 
-section{
+main{
     width:20vw;
     border-radius: 15px;
     background-color: white;
@@ -32,7 +32,7 @@ section{
     padding: 4vw 4vw 5vw 4vw
 }
 
-section img{
+main img{
     width:30vw;
     display: block;
     margin-left: auto;
@@ -45,12 +45,12 @@ body{
 }
 
 @media(min-width: 300px){
-    section {
+    main {
         width:50vw;
         padding: 4vw 4vw 5vw 4vw
     }
 
-    section img{
+    main img{
         width:50vw;
         display: block;
         margin-left: auto;
@@ -61,12 +61,12 @@ body{
 
 
 @media(min-width: 500px){
-    section {
+    main {
         width:50vw;
         padding: 4vw 4vw 5vw 4vw
     }
 
-    section img{
+    main img{
         width:50vw;
         display: block;
         margin-left: auto;
@@ -75,12 +75,12 @@ body{
 }
 
 @media(min-width: 700px){
-    section {
+    main {
         width:40vw;
         padding: 4vw 4vw 5vw 4vw
     }
 
-    section img{
+    main img{
         width:40vw;
         display: block;
         margin-left: auto;
@@ -89,12 +89,12 @@ body{
 }
 
 @media(min-width: 1000px){
-    section {
+    main {
         width:30vw;
         padding: 2vw 2vw 5vw 2vw
     }
 
-    section img{
+    main img{
         width:30vw;
         display: block;
         margin-left: auto;
