@@ -41,7 +41,7 @@ h1{
 }
 
 body{
-    background-color: hsl(217, 42%, 47%);
+    background-color: #D6E2F0;
 }
 
 @media(min-width: 300px){
