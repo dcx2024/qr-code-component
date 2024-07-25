@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+}
+
+p{
+    font-size: 15px;
+    color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+   margin-left: 10px;
+   margin-right: 10px;
+   text-align: center;
+}
+
+h4{
+    color: hsl(217, 42%, 47%);
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+section{
+    width:20vw;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4vw 4vw 5vw 4vw
+}
+
+section img{
+    width:30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+body{
+    background-color: rgb(151, 253, 253);
+}
+
+@media(min-width: 300px){
+    section {
+        width:50vw;
+        padding: 4vw 4vw 5vw 4vw
+    }
+
+    section img{
+        width:50vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+@media(min-width: 500px){
+    section {
+        width:50vw;
+        padding: 4vw 4vw 5vw 4vw
+    }
+
+    section img{
+        width:50vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(min-width: 700px){
+    section {
+        width:40vw;
+        padding: 4vw 4vw 5vw 4vw
+    }
+
+    section img{
+        width:40vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(min-width: 1000px){
+    section {
+        width:30vw;
+        padding: 2vw 2vw 5vw 2vw
+    }
+
+    section img{
+        width:30vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
